@@ -1,0 +1,185 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey! How can I help you?",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye" ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thank's a lot!" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses can I explore?",
+        "What courses can I learn?",
+        "Which courses are available?"
+      ],
+      "responses": [
+        "We offer the following courses: Java fundamentals, RDBMS and Cloud Fundamentals.",
+        "You can explore the following courses: Java fundamentals, RDBMS and Cloud Fundamentals.",
+        "Here are some courses you can learn: Java fundamentals, RDBMS and Cloud Fundamentals."
+      ]
+    },
+    {
+      "tag": "java",
+      "patterns": [
+        "Java fundamentals",
+        "Java programming",
+        "Learn Java"
+      ],
+      "responses": [
+        "We offer a Java Fundamentals course that covers the basics of Java programming.",
+        "You can learn Java through our Java Fundamentals course."
+      ]
+    },
+    {
+      "tag": "rdbms",
+      "patterns": [
+        "RDBMS",
+        "Relational Database Management System",
+        "Database management"
+      ],
+      "responses": [
+        "We offer a course on RDBMS that covers the principles and techniques of managing relational databases.",
+        "You can explore RDBMS through our course on Relational Database Management System."
+      ]
+    },
+    {
+      "tag": "cloud",
+      "patterns": [
+        "Cloud fundamentals",
+        "Cloud computing",
+        "Learn about cloud"
+      ],
+      "responses": [
+        "We offer a Cloud Fundamentals course that provides an introduction to cloud computing and its key concepts.",
+        "You can learn about cloud computing through our Cloud Fundamentals course."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "I'm looking for assistance",
+        "Who can assist me?"
+      ],
+      "responses": [
+        "Sure! Here are some people who can assist you: 1. Antra Rajpurohit - Senior Associate, 2. Shruti Debbarman - Senior Associate, 3. Nivedita Sutradhar - Associate. Please let me know if you need any further information."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Who is Antra Rajpurohit?",
+        "Contact Details of Antra Rajpurohit"
+      ],
+      "responses": [
+        "Antra Rajpurohit is the Senior Associate. You can contact her at antra.rajpurohit@pwc.com"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Who is Nivedita Sutradhar",
+        "Contact details of Nivedita Sutradhar"
+      ],
+      "responses": [
+        "Nivedita Sutradhar is the Associate. You can contact her at nivedita.sutradhar@pwc.com"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Who is Shruti Debbarman",
+        "Contact details of Shruti Debbarman"
+      ],
+      "responses": [
+        "Shruti Debbarman is the Senior Associate. You can contact her at shruti.debbarman@pwc.com"
+      ]
+    },
+    {
+      "tag": "ticket_submission",
+      "patterns": [
+        "I want to raise a ticket",
+        "Submit a ticket",
+        "Raise a ticket"
+      ],
+      "responses": [
+        "Sure! Please provide the following details to raise a ticket: name, phone number, email address, and a brief description of the issue."
+      ]
+    } ,
+
+    {
+      "tag": "navigation links",
+      "patterns": [
+        "I need more help",
+        "I cant understand, kindly give more solution",
+        "Where can i find more details"
+      ],
+      "responses": [
+        "For more assistance, kindly navigate to the official website at <a href='https://www.pwc.in/' target='_blank'>https://www.pwc.in/</a>"
+      ]
+    },
+
+    {
+      "tag": "ticket_submission",
+      "patterns": [
+        "Submit a ticket",
+        "Raise a ticket",
+        "Ticket submission"
+      ],
+      "responses": [
+        "Sure! Please provide the following details to raise a ticket:\n\nName:\nPhone Number:\nEmail Address:"
+      ]
+    },
+
+              {
+                "tag": "ticket_submission",
+                "patterns": [
+                  "nivedita, 8761901518, niveditasutradhar6@gmail.com"
+                
+                ],
+                "responses": [
+                  "Ticket raised successfully!"
+                ]
+              }
+          ]
+        }  
