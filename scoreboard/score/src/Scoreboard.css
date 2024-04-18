@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #f70b0b;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(206, 6, 6, 0.537);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #c90505;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f3cdcd;
+}
+
+tr:hover {
+    background-color: #f7a4a4;
+}
+/* Scoreboard.css */
+
+/* ...existing CSS styles... */
+
+/*.search-container {
+    margin-bottom: 20px;
+}
+
+.search-label {
+    font-weight: bold;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}*/
+
+/* ...existing CSS styles... */
+
+/* Scoreboard.css */
+
+/* ...existing CSS styles... */
+
+.search-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.search-label {
+    font-weight: bold;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* ...existing CSS styles... */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+    .pagination button {
+        margin-right: 10px;
+    }
+.page-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.page-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
